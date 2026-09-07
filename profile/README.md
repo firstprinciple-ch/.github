@@ -1,43 +1,56 @@
-# Aegilo Industries
+# First Principle
 
-Future Situational Awareness (FSA) for multi-site operations.
+Swiss holding company. **This organisation is where the code lives.**
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](#license) ![Built in Switzerland](https://img.shields.io/badge/Built_in-Switzerland-red)
+[firstprinciple.ch](https://firstprinciple.ch) · Vaud, Switzerland
 
-## Overview
+The holding owns the IP and signs the contracts; the customer-facing brands do
+the work and carry the distinctiveness. That split is deliberate, and it is why
+this page describes repositories rather than selling anything.
 
-Aegilo develops a defense-grade situational awareness platform used to monitor dispersed sites on a single operational picture. The system fuses open-source reporting, sensors, and field communications to help analysts understand what is happening, where, and why—while preserving provenance and auditability.
+The name is the discipline underneath all of it — reasoning from first
+principles: Aegilo's insistence on provenance, the books' arguments, the
+consultancy's diagnosis.
 
-## Capabilities
+## The brands
 
-- **Unified live map** — incidents, assets, routes, and evolving risk in one view  
-- **Event correlation** — link related reports and prioritize by proximity, timing, and context  
-- **Dynamic danger zones** — geofences that expand/decay as events evolve  
-- **Analyst-in-the-loop** — AI proposes; humans review and confirm; every step is logged  
-- **Orchestration & playbooks** — notify, reroute, dispatch, and open tickets across channels  
-- **Evidence & reporting** — audit-ready timelines suitable for internal review and insurance/regulatory needs  
-- **Enterprise integrations** — VMS/CCTV, access control, messaging, ITSM, identity, and APIs
+| Brand | Domain | What it is | Status |
+| --- | --- | --- | --- |
+| **Samuel Pouyt** | samuelpouyt.com | Personal advisory, books, speaking — AI transformation for CEOs | Operating |
+| **Aegilo** | aegilo.com | Protective intelligence. Source-backed answers on travel, movement and location — before people go, where they live and work, and while events unfold | Going to market |
+| **AYA** | useaya.com | Assistant platform (OSS + SaaS) — identity, tenancy, delivery | In development |
+| **Limpide** | limpide.ai | Education — a Socratic tutor that produces understanding | In design |
 
-## Future Situational Awareness (FSA)
+## How the work is built
 
-FSA describes an operating model where sensing, reasoning, and action are continuously connected:
+One analytical engine serves every brand. A domain is a skill, not a fork: the
+same pipeline that produces a weekly open-source security brief produces a site
+exposure assessment, because what differs is the question asked, not the
+machinery.
 
-1. **Sense** — ingest OSINT/news, sensor telemetry, and field updates  
-2. **Understand** — correlate signals, estimate impact, and surface uncertainty  
-3. **Decide** — keep analysts in control with explainable recommendations  
-4. **Act** — execute predefined playbooks and record outcomes for learning
+These are the constraints the work runs on:
 
-## Engineering & Operations
+- **Provenance over assertion** — sources are named and cited, never asserted as
+  truth. Every claim carries its originator and the channel it arrived through.
+- **Analyst in the loop** — the machine proposes, the human decides. Nothing
+  reaches a reader unread.
+- **No forecasts** — we publish what moved and what it rests on. Probabilities
+  belong to somebody else's product.
+- **Recorded, not remembered** — releases, gates, spend and deliveries are
+  written down as artifacts, so a claim about what shipped can be checked
+  instead of trusted.
+- **Client data is segregated by construction** — it never enters a shared cache
+  or corpus.
 
-- **Security & privacy** — privacy-by-design; explainable by default with source provenance on alerts and actions  
-- **Governance** — role-based access, audit logs, and policy-aware data handling  
-- **Integrations** — modular connectors for physical security, IT, and messaging systems  
-- **Deployment** — supports enterprise SSO/RBAC and configuration via APIs
+## Open source
 
-## Aegilo Lab (R&D)
+Most repositories here are private today. **AYA is intended to be published
+under this organisation** when it is ready to be used by people who did not
+write it.
 
-Research tracks include SDR, sensor fusion, and agentic automation. Prototypes are iterated toward hardened components for production environments.
+Public repositories carry their own README and license; unless one states
+otherwise, its code is released under **Apache-2.0**.
 
-## License
+## Contact
 
-Unless noted otherwise, the code in this repository is released under **Apache-2.0**.
+hello@aegilo.com
